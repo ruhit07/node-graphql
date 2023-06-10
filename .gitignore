@@ -1,0 +1,8 @@
+# Node artifact files
+node_modules/
+
+package-lock.json
+ 
+# Environment varibales
+.env*
+!.env*.example

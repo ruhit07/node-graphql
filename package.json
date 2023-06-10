@@ -1,0 +1,27 @@
+{
+  "name": "backend_development",
+  "version": "1.0.0",
+  "description": "Backend development with Node.js, GraphQL",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ruhit Hassan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.1.4",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.3"
+  }
+}
